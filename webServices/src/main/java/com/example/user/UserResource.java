@@ -21,7 +21,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 
 
-@RestController
+@RestController("/UserResource")
 public class UserResource {
 	
 	@Autowired
